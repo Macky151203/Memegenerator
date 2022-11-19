@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav{
+  height: 65px;
+  width: 100vw;
+  background: linear-gradient(90deg,#672280,rgb(204, 59, 240));
+  display: flex;
+  align-items: center;
+}
+.navimg{
+  margin-left: 15px;
+}
+.cont{
+  /* margin-left: 450px; */
+  margin-top: 10px;
+  height: 100px;
+  width: 100vw;
+}
+.forminput{
+  margin: 10px;
+  height: 25px;
+  border-radius: 6px;
+  
+
+}
+.button{
+  border-radius: 10px;
+  margin: 10px;
+  height: 30px;
+  background: linear-gradient(90deg,#851eab,rgb(204, 59, 240));
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.input{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.b{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.memeimg{
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* padding: 10px; */
+}
+.mi{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.memetoptext{
+  position: absolute;
+  left: 700px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+/* text-decoration-color: #282c34; */
+}
+.memebottext{
+  position: absolute;
+  top: 330px;
+  left: 700px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
